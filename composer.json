@@ -1,0 +1,18 @@
+{
+    "name": "araujo0205/hello-world",
+    "description": "My test to composer and git",
+    "type": "library",
+    "authors": [
+        {
+            "name": "David Souza",
+            "email": "eu@davidsouza.space"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+       "psr-0": {
+          "HelloWorld": "src/"
+       }
+    }
+}
